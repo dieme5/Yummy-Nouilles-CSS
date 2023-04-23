@@ -1,0 +1,139 @@
+.titre-menu {
+    margin: 36px 0px 0px 151px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.menu {
+    height: 1598px;
+    background-color: white;
+    margin: 36px 151px 72px 151px;
+    padding-top: 66px;
+    text-align: center;
+}
+
+.menu:hover {
+    border-radius: 10px;
+    border: 1px solid #D2483D;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 151px;
+}
+
+.menu p {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.menu .sous-titre {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section-menu span {
+    color: #D2483D;
+}
+
+.entree, .plats, .desserts, .boissons {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    border-bottom: 3px solid #D2483D;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 463px;
+}
+
+.entree::selection, .plats::selection, .desserts::selection, .boissons::selection {
+    background-color: #D2483D;
+    color: white;
+}
+
+.entree {
+    margin-top: 47px;
+    margin-bottom: 43px;
+}
+
+.plats {
+    margin-top: 62px;
+    margin-bottom: 46px;
+}
+
+.desserts {
+    margin-top: 60px;
+    margin-bottom: 46px;
+}
+
+.boissons {
+    margin-top: 90px;
+    margin-bottom: 23px;
+}
+
+.st1 {
+    margin-bottom: 20px;
+}
+
+.st2 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+.st3 {
+    margin-top: 70px;
+    margin-bottom: 18px;
+}
+
+.st4 {
+    margin-bottom: 20px;
+}
+
+.st5 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+.st6 {
+    margin-top: 70px;
+    margin-bottom: 18px;
+}
+
+.st7 {
+    margin-bottom: 20px;
+}
+
+.last, .last1, .last2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.last1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

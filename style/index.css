@@ -1,0 +1,111 @@
+.container {
+    margin: 80px 240px 150px 240px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Logo:hover {
+    opacity: 90%;
+}
+
+.titre h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase; 
+}
+
+.titre p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.titre span {
+    color: #D2483D; 
+}
+
+.adresses-images {
+    margin: 36px 150px 72px 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.adresses-images p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.savoir-faire {
+    margin: 16px 150px 64px 150px;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.reseaux-sociaux {
+    margin: 36px 279px 101px 279px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 248px 248px;
+    gap: 69px;
+}
+
+.reseaux-sociaux img,
+.adresses-images img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #D2483D;
+}
+
+
+.adresses-images img:hover {
+    box-shadow: none;
+    opacity: 90%;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+}
+  
+.photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: none;
+}
+  
+.lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+}
+
+  

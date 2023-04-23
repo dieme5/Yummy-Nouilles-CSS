@@ -1,0 +1,70 @@
+.position-contact {
+    margin: 0px 0px 78px 143px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadre-contact span {
+    margin: 40px 0px 16px 8px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.cadre-contact {
+    margin-top: 36px;
+}
+
+.yummy-noodle p,
+.yu-noodle-my p,
+.les-yummy-nouilles p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.yummy-noodle {
+    margin-top: 18pxpx;
+    border-left: 4px solid #D2483D;
+}
+
+.yummy-noodle, .yu-noodle-my {
+    margin-bottom: 118px;
+}
+
+.yummy-noodle {
+    padding-left: 8px;
+}
+
+.yu-noodle-my, .les-yummy-nouilles {
+    margin-left: 8px;
+}
+.section-cta1 {
+    background-color: #D2483D;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-cta1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-cta1 p {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    right: 22px;
+}
